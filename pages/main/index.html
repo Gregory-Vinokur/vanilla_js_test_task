@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img class="header__logo" src="../../assets/logo.png" alt="logo" />
+      <form class="header__form">
+        <input
+          class="header__form-input"
+          type="text"
+          placeholder="Поиск и фильтр"
+        />
+        <img
+          class="header__form-logo"
+          src="../../assets/search-icon.svg"
+          alt="search"
+        />
+      </form>
+    </header>
+    <main class="main-content">
+      <aside class="navigation">
+        <button class="navigation__item">
+          <img src="../../assets/desktop.svg" alt="desktop" />
+          <span class="navigation__item-text">Рабочий стол</span>
+        </button>
+        <button class="navigation__item">
+          <img src="../../assets/lists.svg" alt="lists" />
+          <span class="navigation__item-text">Списки</span>
+        </button>
+        <button class="navigation__item">
+          <img src="../../assets/justice.svg" alt="justice" />
+          <span class="navigation__item-text">Суд</span>
+        </button>
+        <button class="navigation__item">
+          <img src="../../assets/email.svg" alt="Email" />
+          <span class="navigation__item-text">Email</span>
+        </button>
+        <button class="navigation__item">
+          <img src="../../assets/mail.svg" alt="mail" />
+          <span class="navigation__item-text">Почта</span>
+        </button>
+        <button class="navigation__item">
+          <img src="../../assets//sms.svg" alt="SMS" />
+          <span class="navigation__item-text">СМС</span>
+        </button>
+        <button class="navigation__item">
+          <img src="../../assets/call.svg" alt="calls" />
+          <span class="navigation__item-text">Звонки</span>
+        </button>
+        <button class="navigation__item">
+          <img src="../../assets/analytics.svg" alt="analytics" />
+          <span class="navigation__item-text">Аналитика</span>
+        </button>
+        <button class="navigation__item">
+          <img src="../../assets/settings.svg" alt="settings" />
+          <span class="navigation__item-text">Настройки</span>
+        </button>
+      </aside>
+      <div class="table-container">
+        <div class="button-container">
+          <button class="table-container__button">Создать письмо</button>
+          <button class="table-container__button">Отправить в Битрикс24</button>
+        </div>
+        <table class="table">
+          <thead>
+            <tr class="table__row">
+              <th>
+                <div class="table__checkbox">
+                  <input type="checkbox" id="checkbox1" />
+                  <label for="checkbox1"></label>
+                </div>
+              </th>
+              <th>Номер дела</th>
+              <th>Номер письма</th>
+              <th>Истец</th>
+              <th>Ответчик</th>
+              <th>Судья</th>
+              <th>Статус дела</th>
+              <th>Ответственный</th>
+              <th>Статус</th>
+              <th>Ссылка на дело</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <div class="table__checkbox">
+                  <input type="checkbox" id="checkbox2" checked />
+                  <label for="checkbox2"></label>
+                </div>
+              </td>
+              <td>А40-257975/2021</td>
+              <td>ССЭ/20230717</td>
+              <td>Департамент городского имущества города Москвы</td>
+              <td>ООО “Люблино девелопмент”</td>
+              <td>Романенкова С. В.</td>
+              <td>О назначении дела к судебному разбирательству</td>
+              <td>Степанова Виталий Александрович</td>
+              <td>Отправлено</td>
+              <td>Открыть дело</td>
+            </tr>
+            <tr>
+              <td>
+                <div class="table__checkbox">
+                  <input type="checkbox" id="checkbox3" />
+                  <label for="checkbox3"></label>
+                </div>
+              </td>
+              <td>А40-257975/2021</td>
+              <td>ССЭ/20230717</td>
+              <td>Департамент городского имущества города Москвы</td>
+              <td>ООО “Люблино девелопмент”</td>
+              <td>Романенкова С. В.</td>
+              <td>О назначении дела к судебному разбирательству</td>
+              <td>Степанова Виталий Александрович</td>
+              <td>Создано</td>
+              <td>Открыть дело</td>
+            </tr>
+            <tr>
+              <td>
+                <div class="table__checkbox">
+                  <input type="checkbox" id="checkbox4" />
+                  <label for="checkbox4"></label>
+                </div>
+              </td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <div class="table__checkbox">
+                  <input type="checkbox" id="checkbox5" />
+                  <label for="checkbox5"></label>
+                </div>
+              </td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <div class="table__checkbox">
+                  <input type="checkbox" id="checkbox6" />
+                  <label for="checkbox6"></label>
+                </div>
+              </td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <div class="table__checkbox">
+                  <input type="checkbox" id="checkbox7" />
+                  <label for="checkbox7"></label>
+                </div>
+              </td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <div class="table__checkbox">
+                  <input type="checkbox" id="checkbox8" />
+                  <label for="checkbox8"></label>
+                </div>
+              </td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <div class="table__checkbox">
+                  <input type="checkbox" id="checkbox9" />
+                  <label for="checkbox9"></label>
+                </div>
+              </td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <div class="table__checkbox">
+                  <input type="checkbox" id="checkbox10" />
+                  <label for="checkbox10"></label>
+                </div>
+              </td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <div class="table__checkbox">
+                  <input type="checkbox" id="checkbox11" />
+                  <label for="checkbox11"></label>
+                </div>
+              </td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <div class="table__checkbox">
+                  <input type="checkbox" id="checkbox12" />
+                  <label for="checkbox12"></label>
+                </div>
+              </td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <div class="table__checkbox">
+                  <input type="checkbox" id="checkbox13" />
+                  <label for="checkbox13"></label>
+                </div>
+              </td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <div class="table__checkbox">
+                  <input type="checkbox" id="checkbox14" />
+                  <label for="checkbox14"></label>
+                </div>
+              </td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+  </body>
+</html>
