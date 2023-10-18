@@ -165,6 +165,21 @@
   line-height: normal;
 }
 
+.table__link {
+  text-decoration: none;
+  color: #000;
+}
+
+.table__link:hover {
+  text-decoration: underline;
+}
+
+.table__link:active,
+.table__link:visited {
+  text-decoration: none;
+  color: #000;
+}
+
 th,
 td {
   display: flex;
