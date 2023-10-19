@@ -70,7 +70,9 @@
       </aside>
       <div class="table-container">
         <div class="button-container">
-          <button class="table-container__button">Создать письмо</button>
+          <button class="table-container__button" id="create-letter">
+            Создать письмо
+          </button>
           <button class="table-container__button">Отправить в Битрикс24</button>
         </div>
         <table class="table">
@@ -326,6 +328,43 @@
           </tbody>
         </table>
       </div>
+      <div class="popup">
+        <div class="popup__content">
+          <button class="popup__close-button">
+            <img src="../../assets/close.svg" alt="close popup" />
+          </button>
+          <form class="popup__form">
+            <label for="letterTitle">Введите название письма:</label>
+            <input
+              class="popup__input"
+              type="text"
+              id="letterTitle"
+              name="letterTitle"
+              required
+            />
+
+            <label for="templateName">Название шаблона:</label>
+            <select class="popup__select" id="templateName" name="templateName">
+              <option value="template1">Шаблон 1</option>
+              <option value="template2">Шаблон 2</option>
+              <option value="template3">Шаблон 3</option>
+            </select>
+
+            <label for="contactInfo">Введите контактные данные:</label>
+            <input
+              class="popup__input"
+              type="text"
+              id="contactInfo"
+              name="contactInfo"
+              required
+            />
+
+            <button class="popup__submit-button" type="submit">Добавить</button>
+          </form>
+          <p class="popup__sucess-message">Письмо успешно создано</p>
+        </div>
+      </div>
     </main>
+    <script src="./js/popup.js"></script>
   </body>
 </html>
