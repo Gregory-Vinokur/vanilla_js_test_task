@@ -11,9 +11,17 @@ html {
   font-size: 62.5%;
 }
 
+:root {
+  --dark: #000;
+  --nav-bg: #fbfbfb;
+  --light: #fff;
+  --gray-border: #c0c0c0;
+  --font-family: Montserrat;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
   line-height: 1;
   font-weight: 400;
-  color: #000;
+  color: var(--dark);
 }
